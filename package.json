@@ -1,0 +1,22 @@
+{
+  "name": "quan-ly-su-kien",
+  "version": "1.0.0",
+  "description": "Hệ thống quản lý sự kiện CLB - React App",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently -k -r -c \"blue,green\" --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "dev:server": "cd backend && npm run dev",
+    "dev:client": "cd frontend && npm start",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "start:server": "cd backend && npm start",
+    "start:client": "cd frontend && npm start"
+  },
+  "keywords": ["react", "nodejs", "sql-server", "event-management"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+

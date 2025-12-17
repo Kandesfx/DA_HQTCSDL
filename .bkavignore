@@ -1,0 +1,30 @@
+# BKAV Ignore List
+# Thêm các file/thư mục này vào danh sách loại trừ trong BKAV
+
+# Node modules
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build files
+build/
+dist/
+backend/dist/
+frontend/build/
+
+# Config files
+package.json
+package-lock.json
+.env
+.env.local
+
+# Source files
+*.js
+*.jsx
+*.json
+*.node
+
+# Logs
+*.log
+npm-debug.log*
+
